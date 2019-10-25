@@ -8,5 +8,6 @@ python novel.py
 
 运行效果如下图所示：
 
-https://raw.githubusercontent.com/wazyl/python3_novel_download/master/download_novel.png
+![image](https://raw.githubusercontent.com/wazyl/python3_novel_download/master/download_novel.png)
+
 
