@@ -10,6 +10,6 @@ python novel.py
 
 ![image](https://raw.githubusercontent.com/wazyl/python3_novel_download/master/download_novel.png)
 
-提示：本程序智能识别https://www.biqugg.com 网站小说，切勿拿来做违法事情。
+提示：本程序只能识别https://www.biqugg.com 网站小说，切勿拿来做违法事情。
 
 
