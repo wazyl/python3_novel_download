@@ -2,8 +2,7 @@
 from tkinter import *
 import requests
 from bs4 import BeautifulSoup
-# 根据链接下载歌曲
-from urllib.request import urlretrieve
+
 import os
 import time
 
@@ -13,8 +12,8 @@ import sys
 #改变标准输出的默认编码 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer,encoding='utf-8')
 
-# 爬取网易云音乐函数
-def downlaod_song():
+# 爬取小说函数
+def downlaod_novel():
     # 1.获取用户输入的url小说列表地址
     url = entry.get()
 
@@ -149,7 +148,7 @@ text = Listbox(root,font=('微软雅黑',16),width=45,height=10)
 # columnspan组件所跨月的列数
 text.grid(row=1,columnspan=2)
 # 7.按钮控件
-button = Button(root,text='开始下载',width=10,font=('微软雅黑',10),command=downlaod_song)
+button = Button(root,text='开始下载',width=10,font=('微软雅黑',10),command=downlaod_novel)
 button.grid(row=2,column=0,sticky=W)
 
 button1 = Button(root,text='退出',width=10,font=('微软雅黑',10),command=root.quit)
